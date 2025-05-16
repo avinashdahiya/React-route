@@ -44,13 +44,13 @@ function About() {
 
       {/* Call to Action Section */}
       <div className="text-center max-w-3xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4 text-blue-700 hover:scale-105 transition">
+        <h2 className="text-3xl font-bold mb-4 text-blue-700 ">
           Ready to build your digital future?
         </h2>
         <p className="mb-6 text-gray-600">
           Contact us today to discuss your project and discover how we can help your brand grow online.
         </p>
-        <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition cursor-pointer">
+        <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition cursor-pointer hover:scale-100">
           Get in Touch
         </button>
       </div>
