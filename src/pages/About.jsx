@@ -5,7 +5,7 @@ function About() {
     <section className="px-4 py-16 min-h-screen bg-gray-50">
       {/* Why Choose Us Section */}
       <div className="max-w-4xl mx-auto mb-16">
-        <h2 className="text-4xl font-bold mb-10 text-center text-blue-700 hover:scale-105 transition">
+        <h2 className="text-4xl font-bold mb-10 text-center text-blue-700 ">
           Why Choose <span className="text-gray-800">Radial Code</span>
         </h2>
 
@@ -50,7 +50,7 @@ function About() {
         <p className="mb-6 text-gray-600">
           Contact us today to discuss your project and discover how we can help your brand grow online.
         </p>
-        <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
+        <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition cursor-pointer">
           Get in Touch
         </button>
       </div>

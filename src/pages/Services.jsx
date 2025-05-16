@@ -12,7 +12,7 @@ function Services() {
 
   return (
     <section className="px-4 sm:px-6 lg:px-8 py-16 max-w-5xl mx-auto">
-      <h2 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-10 text-center text-blue-700 hover:scale-105 transition-transform duration-300">
+      <h2 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-10 text-center text-blue-700 ">
         Our Services
       </h2>
 
@@ -46,7 +46,7 @@ function Services() {
       <div className="flex justify-center">
         <button
           onClick={handlePrompt}
-          className="w-full sm:w-auto px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition focus:outline-none focus:ring-4 focus:ring-blue-300"
+          className="w-full sm:w-auto px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition focus:outline-none focus:ring-4 focus:ring-blue-300 cursor-pointer"
         >
           Ask for a Custom Service
         </button>

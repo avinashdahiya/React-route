@@ -3,7 +3,7 @@ function Home() {
   return (
     <section className="px-4 py-16 min-h-screen bg-gray-50">
       <div className="max-w-5xl mx-auto text-center">
-        <h1 className="text-4xl font-bold mb-10 text-center text-blue-700 hover:scale-105 transition">
+        <h1 className="text-4xl font-bold mb-10 text-center text-blue-700 ">
           Welcome to <span className="text-gray-800">Radial Code</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-8">
