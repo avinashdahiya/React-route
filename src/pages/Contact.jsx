@@ -1,4 +1,4 @@
- import React, { useState } from "react";
+import React, { useState } from "react";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -19,7 +19,7 @@ function Contact() {
   };
 
   return (
-    <section className="px-4 py-16 flex justify-center items-center min-h-[70vh] bg-gray-50">
+    <section className="px-4 pt-24 py-16 flex justify-center items-center min-h-[70vh] bg-gray-50">
       <div className="w-full max-w-xl border-gray-200">
         <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center text-blue-700 hover:scale-105 transition">
           Contact Us
@@ -96,7 +96,7 @@ function Contact() {
               ></textarea>
             </div>
 
-            {/* Submit Button aligned left */}
+            {/* Submit Button aligned center */}
             <div className="flex justify-center">
               <button
                 type="submit"
@@ -117,5 +117,3 @@ function Contact() {
 }
 
 export default Contact;
-
-
