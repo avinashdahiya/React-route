@@ -14,7 +14,7 @@ function Home() {
         {/* Key Features Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
           {/* Card 1 */}
-          <div className="p-5 sm:p-6 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300 cursor-pointer">
+          <div className="p-5 sm:p-6 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300">
             <h3 className="text-lg sm:text-xl font-bold mb-2 text-blue-600 hover:text-blue-800 transition">
               💡 Innovation
             </h3>
@@ -24,7 +24,7 @@ function Home() {
           </div>
 
           {/* Card 2 */}
-          <div className="p-5 sm:p-6 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300 cursor-pointer">
+          <div className="p-5 sm:p-6 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300">
             <h3 className="text-lg sm:text-xl font-bold mb-2 text-blue-600 hover:text-blue-800 transition">
               🎨 UI/UX Design
             </h3>
@@ -34,7 +34,7 @@ function Home() {
           </div>
 
           {/* Card 3 */}
-          <div className="p-5 sm:p-6 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300 cursor-pointer">
+          <div className="p-5 sm:p-6 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300">
             <h3 className="text-lg sm:text-xl font-bold mb-2 text-blue-600 hover:text-blue-800 transition">
               ⚙️ Performance
             </h3>

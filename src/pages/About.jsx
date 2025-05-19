@@ -11,7 +11,7 @@ function About() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
           {/* Card 1 */}
-          <div className="p-5 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300 cursor-pointer">
+          <div className="p-5 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300">
             <h3 className="text-lg sm:text-xl font-bold mb-2 text-blue-600 hover:text-blue-800 transition">
               Expert Team
             </h3>
@@ -21,7 +21,7 @@ function About() {
           </div>
 
           {/* Card 2 */}
-          <div className="p-5 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300 cursor-pointer">
+          <div className="p-5 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ">
             <h3 className="text-lg sm:text-xl font-bold mb-2 text-blue-600 hover:text-blue-800 transition">
               Customer Focused
             </h3>
@@ -31,7 +31,7 @@ function About() {
           </div>
 
           {/* Card 3 */}
-          <div className="p-5 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300 cursor-pointer">
+          <div className="p-5 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ">
             <h3 className="text-lg sm:text-xl font-bold mb-2 text-blue-600 hover:text-blue-800 transition">
               Cutting Edge Tech
             </h3>
@@ -50,7 +50,7 @@ function About() {
         <p className="mb-6 text-gray-600 text-sm sm:text-base">
           Contact us today to discuss your project and discover how we can help your brand grow online.
         </p>
-        <button className="px-6 sm:px-8 py-2.5 sm:py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
+        <button className="px-6 sm:px-8 py-2.5 sm:py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition cursor-pointer">
           Get in Touch
         </button>
       </div>
